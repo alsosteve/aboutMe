@@ -23,7 +23,70 @@ if (california === 'yes' || california === 'y') {
   alert("What?! That's not what I.. nevermind moving on...")
 }
 
+// Question 2
 
+let colorOrigin = prompt("Is Steve's favorite color black?");
+console.log(colorOrigin);
+let color = colorOrigin.toLowerCase();
+
+console.log(color);
+
+
+if (color === 'yes' || color === 'y') {
+  alert("That is the correct answer, he will be pleased.")
+} else if (color === 'no' || color === 'n') {
+  alert("Wrong! He is displeased.");
+} else {
+  alert("Your response was insuficient, do you lack an organic central processing unit?")
+}
+
+// Question 3
+
+let schoolOrigin = prompt('Was High School fun?');
+console.log(schoolOrigin);
+let school = schoolOrigin.toLocaleLowerCase();
+
+console.log(school);
+
+if (school === 'yes' || school === 'y') {
+  alert("No, high school was lame! Wrong answer.")
+} else if (school === 'no' || school === 'n') {
+  alert("You are correct! High school was such a drag.");
+} else {
+  alert("You didn't answer correctly.")
+}
+
+// Question 4
+
+let armyOrigin = prompt('Steve did 5 years in the army. Yes or no?');
+console.log(armyOrigin);
+let army = armyOrigin.toLocaleLowerCase();
+
+console.log(army);
+
+if (army === 'yes' || army === 'y') {
+  alert("Actually, Steve did 3 years in the army.")
+} else if (army === 'no' || army === 'n') {
+  alert("That's a bit off by 2 years. Sorry, you're wrong.");
+} else {
+  alert("Only 1 more question after this and you messed up answering this one? Come on man!")
+}
+
+// Question 5
+
+let enjoyOriginal = prompt('Did you enjoy the questions?0');
+console.log(enjoyOriginal);
+let enjoy = enjoyOriginal.toLocaleLowerCase();
+
+console.log(enjoy);
+
+if (enjoy === 'yes' || enjoy === 'y') {
+  alert('Great! Come back soon for more!')
+} else if (enjoy === 'no' || enjoy === 'n') {
+  alert("Yes you did! Don't lie!")
+} else {
+  alert('This is the last question and you answered it weird...')
+}
 
 
 

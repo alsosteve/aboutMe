@@ -5,7 +5,7 @@ console.log('hello world');
 // this is a counter for the number of correct answers a user gets
 let correctCounter = 0;
 
-function questionList() {
+function question1() {
   // ask some yes or no questions 
 
   // Prompt user for question answer
@@ -32,9 +32,9 @@ function questionList() {
   } else {
     alert("What?! That's not what I.. nevermind moving on...")
   }
-
+  }
   // Question 2
-
+  function question2(){
   let colorOrigin = prompt("Is Steve's favorite color black?");
   console.log(colorOrigin);
   let color = colorOrigin.toLowerCase();
@@ -51,9 +51,9 @@ function questionList() {
   } else {
     alert("Your response was insuficient, do you lack an organic central processing unit?");
   }
-
+  }
   // Question 3
-
+  function Question3(){
   let schoolOrigin = prompt('Was High School fun?');
   console.log(schoolOrigin);
   let school = schoolOrigin.toLocaleLowerCase();
@@ -69,9 +69,9 @@ function questionList() {
   } else {
     alert("You didn't answer correctly.")
   }
-
+  }
   // Question 4
-
+  function Question4() {
   let armyOrigin = prompt('Steve did 5 years in the army. Yes or no?');
   console.log(armyOrigin);
   let army = armyOrigin.toLocaleLowerCase();
@@ -87,9 +87,9 @@ function questionList() {
   } else {
     alert("Only 1 more question after this and you messed up answering this one? Come on man!");
   }
-
+  }
   // Question 5
-
+  function Question5() {
   let enjoyOriginal = prompt('Did you enjoy the questions?');
   console.log(enjoyOriginal);
   let enjoy = enjoyOriginal.toLocaleLowerCase();
@@ -105,8 +105,8 @@ function questionList() {
   } else {
     alert('This is the last question and you answered it weird...')
   }
+  }
 
-}
 
 // Question 6
 // This code generates a random number and allows 4 tries to guess the number
@@ -191,8 +191,11 @@ function arrayQuestion() {
 }
 // call function
 
-questionList();
-
+question1();
+question2();
+question3();
+question4();
+question5();
 numGame();
 
 arrayQuestion();

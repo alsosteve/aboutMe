@@ -16,6 +16,8 @@ function questionList() {
   // no or n
   // if they don't give yes or no lets say: What?! That's not what I.. nevermind moving on...
 
+  //Repeat format up to question 5
+
   if (california === 'yes' || california === 'y') {
     alert("Cool, I'm from there.")
   } else if (california === 'no' || california === 'n') {
@@ -165,5 +167,7 @@ switch (funNumber) {
 */
 
 // call function
+
+
 questionList();
 numGame();

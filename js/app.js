@@ -136,38 +136,25 @@ function numGame(){
 
 // Question 7
 
+function arrayQuestion() {
+  // create array of possible answers
+  let array = ['the suicide squad', 'kill bill', 'gone with the wind', 'the godfather', 'the good, the bad, and the ugly'];
+  // user prompt
+  let movieGuess = prompt('What is a movie I would rewatch?');
+  for (let index = 0; index < array.length; index++) {
+    let currentMovie = array[index];
 
+    if (movieGuess === currentMovie) {
+      alert('yes that movie');
+    }
+  }
 
-
-/*
-// lets ask a question involving numbers
-// prompts ALWAYS return strings
-
-let funLevel = prompt('On a scale of 1-3, with 3 being the most fun, how fun was disneyland when you went.');
-
-console.log(typeof funLevel);
-
-let funNumber = parseInt(funLevel);
-// let funNumber = Number(funLevel)
-
-// switch statement
-switch (funNumber) {
-  case 1:
-    alert('I am sorry, you should definitely go again');
-    break;
-  case 2:
-    alert('Did you even try a pickle? Shouldn\'t have eaten that Turkey leg!');
-    break;
-  case 3:
-    alert('That is what I like to hear! When are we going back?!');
-    break;
-  default:
-    alert('Let me plan your next trip');
 }
-*/
 
 // call function
 
 
 questionList();
 numGame();
+
+arrayQuestion();

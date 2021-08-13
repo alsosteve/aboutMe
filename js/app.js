@@ -190,7 +190,7 @@ function arrayQuestion() {
   }
 }
 // call function
-
+/*
 question1();
 question2();
 question3();
@@ -201,3 +201,4 @@ numGame();
 arrayQuestion();
 
 alert('You got ' + correctCounter + ' answers correct.');
+*/

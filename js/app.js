@@ -34,7 +34,7 @@ function question1() {
   }
   }
   // Question 2
-  function question2(){
+  function question2() {
   let colorOrigin = prompt("Is Steve's favorite color black?");
   console.log(colorOrigin);
   let color = colorOrigin.toLowerCase();
@@ -53,7 +53,7 @@ function question1() {
   }
   }
   // Question 3
-  function Question3(){
+  function question3() {
   let schoolOrigin = prompt('Was High School fun?');
   console.log(schoolOrigin);
   let school = schoolOrigin.toLocaleLowerCase();
@@ -71,7 +71,7 @@ function question1() {
   }
   }
   // Question 4
-  function Question4() {
+  function question4() {
   let armyOrigin = prompt('Steve did 5 years in the army. Yes or no?');
   console.log(armyOrigin);
   let army = armyOrigin.toLocaleLowerCase();
@@ -89,7 +89,7 @@ function question1() {
   }
   }
   // Question 5
-  function Question5() {
+  function question5() {
   let enjoyOriginal = prompt('Did you enjoy the questions?');
   console.log(enjoyOriginal);
   let enjoy = enjoyOriginal.toLocaleLowerCase();
